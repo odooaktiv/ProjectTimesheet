@@ -16,6 +16,8 @@
             'security/ir.model.access.csv',
             'wizard/project_view_wizard.xml',
             'views/project.xml', ],
+
+    'images': ['static/description/banner.png'],
     'auto_install': False,
     'installable': True,
     'application': True,
