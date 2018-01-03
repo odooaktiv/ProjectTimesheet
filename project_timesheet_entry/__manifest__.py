@@ -17,7 +17,7 @@
             'wizard/project_view_wizard.xml',
             'views/project.xml', ],
 
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.jpg'],
     'auto_install': False,
     'installable': True,
     'application': True,
