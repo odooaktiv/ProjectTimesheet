@@ -4,13 +4,16 @@
     'version': '1.0',
     'author': 'Aktiv Software',
     'website': 'http://www.aktivsoftware.com',
-    'summary': 'Project User/Manager Enter Timesheet Entry By Wizard In Project Tasks And Issues',
+    'summary': 'Project User/Manager Enter Timesheet Entry By Wizard In '
+    'Project Tasks And Issues',
     'category': 'Project',
     'license': 'AGPL-3',
     'depends': ['project_issue_sheet'],
     'description': """
-        This module helps to project user and manager ,to fill up timesheet of project's task and issue quickly by a wizard(pop-up).
-        Project user has only creating and reading rights of timesheet, while the manager can access everything.
+        This module helps to project user and manager ,to fill up timesheet
+        of project's task and issue quickly by a wizard(pop-up).
+        Project user has only creating and reading rights of timesheet,
+        while the manager can access everything.
         """,
     'data': [
             'security/ir.model.access.csv',
