@@ -6,7 +6,7 @@
             <field name="model">project.task.wizard</field>
             <field name="arch" type="xml">
                 <form string="Task Timesheet">
-        		    <group string="Task Timesheet">
+                    <group string="Task Timesheet">
                         <label for="name" />
                         <div>
                             <field name="name" required="1"/>
@@ -16,10 +16,10 @@
                             <field name="duration" required="1" style="width:10%;" widget="float_time" />
                         </div>
                     </group>
-        		    <footer>
-            			<button string="Save Timesheet" name="write_task_log" type="object" class="btn-primary"/>
-            			<button string="Cancel" class="btn-default" special="cancel"/>
-        		    </footer>
+                    <footer>
+                        <button string="Save Timesheet" name="write_task_log" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
                 </form>
             </field>
         </record>
