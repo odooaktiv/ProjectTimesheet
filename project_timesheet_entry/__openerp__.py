@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Project Timesheet Entry",
-    'version': '1.0',
+    'version': '9.0.1.0.0',
     'author': 'Aktiv Software',
     'website': 'http://www.aktivsoftware.com',
     'summary': 'Project User/Manager Enter Timesheet Entry By '
